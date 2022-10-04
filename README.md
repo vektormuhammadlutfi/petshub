@@ -34,20 +34,22 @@ URL: `https://api.kontenbase.com/query/api/v1/6158122d-ffc6-4101-a6dc-225b3c9a1f
 | PATCH  | `/user/:id` | Edit user    |
 | DELETE | `/user/:id` | Delete user  |
 
-```json
-{
-   "Description": "",
-   "\_id": "",
-   "email": "",
-   "name": "",
-   "nickname": "",
-   "photo":[
-      {
-         "fileName": "",
-         "url": ""
-      }
-   ]
-}
+```
+[
+   {
+      "_id": "633c333adadc42808a40c6f6",
+      "email": "makmur@mail.com",
+      "name": "Makmur",
+      "nickname": "makmur",
+      "Description": "Saya seorang pecinta kucing",
+      "photo": [
+                  {
+                  "fileName": "100_6.jpg",
+                  "url": "https://api.kontenbase.com/upload/file/storage/633aec8840f5380221732e21/SSUMEfCW/100_6.jpg"
+                  }
+               ]
+   }
+]
 ```
 
 - API POST
@@ -61,18 +63,16 @@ URL: `https://api.kontenbase.com/query/api/v1/6158122d-ffc6-4101-a6dc-225b3c9a1f
 | PATCH  | `/post/:id` | Edit post    |
 | DELETE | `/post/:id` | Delete post  |
 
-POST
-
-```json
+```
+[
   {
-  
-   "CreatedAt": "2022-10-03T14:13:39.468Z",
-   "UpdateAt": "2022-10-03T14:13:39.468Z",
-    "UserCreated": null,
-    "UserUpdate": null,
-    "\_id": "633aee13dadc42808a40c686",
-    "description": "Sedang memikirkanmu",
-    "tittle": "Apa yang sedang saya fikirkan"
-  
+      "_id": "633aee13dadc42808a40c686",
+      "description": "Sedang memikirkanmu",
+      "tittle": "Apa yang sedang saya fikirkan",
+      "CreatedAt": "2022-10-03T14:13:39.468Z",
+      "UpdateAt": "2022-10-03T14:13:39.468Z",
+      "UserCreated": null,
+      "UserUpdate": null
   }
+]
 ```
