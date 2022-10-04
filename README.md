@@ -9,7 +9,6 @@ Social media for pet owners to share their pets info, meme, or just find pet thi
 ## Team members
 
 1. Muhammad Zulkarnaen Indranto ([Zulkarnaen](https://github.com/zul1996))
-   live : https://petshub.mzoel.com/
    - Design MockUp
 2. Makmur ([Makmur](https://github.com/makmuremha))
    - Logic and Task
@@ -25,8 +24,6 @@ Social media for pet owners to share their pets info, meme, or just find pet thi
 - Live: https://pets-hub.netlify.app/ 
 
 ## API Specification
-
-- API User
 
 URL: `https://api.kontenbase.com/query/api/v1/6158122d-ffc6-4101-a6dc-225b3c9a1f9c/User`
 
