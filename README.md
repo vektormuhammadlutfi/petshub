@@ -36,17 +36,17 @@ URL: `https://api.kontenbase.com/query/api/v1/6158122d-ffc6-4101-a6dc-225b3c9a1f
 
 ```json
 {
-"Description": "",
-"\_id": "",
-"email": "",
-"name": "",
-"nickname": "",
-"photo": [
-{
-"fileName": "",
-"url": ""
-}
-]
+   "Description": "",
+   "\_id": "",
+   "email": "",
+   "name": "",
+   "nickname": "",
+   "photo":[
+      {
+         "fileName": "",
+         "url": ""
+      }
+   ]
 }
 ```
 
@@ -63,14 +63,16 @@ URL: `https://api.kontenbase.com/query/api/v1/6158122d-ffc6-4101-a6dc-225b3c9a1f
 
 POST
 
-```
+```json
   {
-  "CreatedAt": "2022-10-03T14:13:39.468Z",
-  "UpdateAt": "2022-10-03T14:13:39.468Z",
-  "UserCreated": null,
-  "UserUpdate": null,
-  "\_id": "633aee13dadc42808a40c686",
-  "description": "Sedang memikirkanmu",
-  "tittle": "Apa yang sedang saya fikirkan"
+  
+   "CreatedAt": "2022-10-03T14:13:39.468Z",
+   "UpdateAt": "2022-10-03T14:13:39.468Z",
+    "UserCreated": null,
+    "UserUpdate": null,
+    "\_id": "633aee13dadc42808a40c686",
+    "description": "Sedang memikirkanmu",
+    "tittle": "Apa yang sedang saya fikirkan"
+  
   }
 ```
