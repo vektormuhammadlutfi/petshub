@@ -27,19 +27,19 @@ Social media for pet owners to share their pets info, meme, or just find pet thi
 
 - API User
 
-  {
+ {
   "Description": "Saya seorang pecinta kucing",
-  "\_id": "633c333adadc42808a40c6f6",
+  "_id": "633c333adadc42808a40c6f6",
   "email": "makmur@mail.com",
   "name": "Makmur",
   "nickname": "makmur",
   "photo": [
-  {
-  "fileName": "100_6.jpg",
-  "url": "https://api.kontenbase.com/upload/file/storage/633aec8840f5380221732e21/SSUMEfCW/100_6.jpg"
-  }
+    {
+      "fileName": "100_6.jpg",
+      "url": "https://api.kontenbase.com/upload/file/storage/633aec8840f5380221732e21/SSUMEfCW/100_6.jpg"
+    }
   ]
-  }
+}
 
   - API POST
 
